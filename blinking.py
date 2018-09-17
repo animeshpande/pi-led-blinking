@@ -1,4 +1,6 @@
-from gpizero import LED
+#! /usr/bin/python
+from gpiozero import LED
+
 led = LED(15)
 
 led.on()
